@@ -122,7 +122,7 @@ def running_emboss(emboss_parameters):
     returns the similarity values for the parameters provided
     emboss_parameters is a list comtaining seq1filename , seq2filename and needle / streacher
     '''
-    erun = RunNW_3.EmbossRun(emboss_parameters)
+    erun = RunNW.EmbossRun(emboss_parameters)
     ncl = erun.EmbossCline2()
     erun.runCline(ncl)
     return erun.GetSimilarity()
