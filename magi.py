@@ -249,7 +249,7 @@ if __name__ == '__main__':
     finalDF = pd.DataFrame(columns=ConcatHeaders(Headers),index=None)
 
     # looping tru all the header combinations
-    for OrgTup in header_groups[:2]:
+    for OrgTup in header_groups:
         org1=OrgTup[0] # org1 is the column header
         org2=OrgTup[1]
         colOrg1 = pdres[org1] # colOrg1 is the contents of the column org1
