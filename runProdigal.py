@@ -111,7 +111,7 @@ if __name__ == '__main__':
 		n.shorten_fasta_header(n.pep)
 		n.remove_files()
 		n.rename_files()
-		print("chek result files for {}  {} ".format(n.nuc, n.pep))
+		print("check result files : {}  {} ".format(n.nuc, n.pep))
 	
 
 '''
